@@ -6,7 +6,7 @@ import 'package:socket_io_client/socket_io_client.dart';
 
 void main(List<String> args) {
   final client = io(
-    'http://172.16.90.127:3000/chat',
+    'http://localhost:3000/chat',
     <String, dynamic> {'transports': ['websocket']}
   );
 
